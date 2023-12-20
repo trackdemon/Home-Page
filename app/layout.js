@@ -1,17 +1,24 @@
 import { Inter } from 'next/font/google'
 import './styles/globals.css'
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Demon',
-  description: 'House',
+  title: ,
+  applicationName: ,
+  description: 
+  url: '',
 }
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        {/* Link manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        {/* Link favicon */}
+        </head>
+
+      <body className={`overflow-hidden ${inter.className}`}>
+       
+      </body>
     </html>
-  )
-}
+  )}
