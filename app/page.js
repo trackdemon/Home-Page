@@ -22,6 +22,10 @@ export default function Home() {
 </section>
 </div>
 
+<body>
+  
+</body>
+
 <footer className="footer items-center p-4 bg-neutral text-neutral-content" style={{ height: '100px' }}>
   <aside className="items-center grid-flow-col">
 
