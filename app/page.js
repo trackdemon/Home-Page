@@ -23,7 +23,9 @@ export default function Home() {
 </div>
 
 <body>
-  
+<Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
+            Home
+          </Link>
 </body>
 
 <footer className="footer items-center p-4 bg-neutral text-neutral-content" style={{ height: '100px' }}>
